@@ -36,6 +36,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - navigation.tabs
     - navigation.footer
 extra_css:
   - stylesheets/extra.css
