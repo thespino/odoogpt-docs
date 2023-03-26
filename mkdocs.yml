@@ -1,9 +1,15 @@
+# MAIN INFO
 site_name: OdooGPT
+site_description: Make OdooBot finally useful!
 site_url: https://odoogpt.thespino.dev/docs
+
 repo_name: thespino/odoogpt
 repo_url: https://github.com/thespino/odoogpt
+
 copyright: By @thespino
 
+
+# THEME
 theme:
   name: material
   logo: assets/logo.png
@@ -41,6 +47,18 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+
+
+# PLUGINS AND SETTINGS
+plugins:
+  - search
+  # - privacy
+  # privacy plugin needs insider - https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin
+  # try this instead: https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/#additional-fonts
+
+markdown_extensions:
+  - admonition
+
 extra:
   version:
     provider: mike
@@ -68,9 +86,11 @@ extra:
 #       make our documentation better.
 
 
-
-# privacy plugin needs insider - https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin
-# use this instead: https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/#additional-fonts
-plugins:
-  - search
-  # - privacy
+# PAGES, NAVIGATION
+nav:
+  - Documentation:
+    - 'Getting started': docs/getting-started.md
+    - 'Requirements': docs/requirements.md
+  - Video:
+    - 'Configuration, Fine tune, Documentation for system administrators': video/sys-admin.md
+  - About: about.md
