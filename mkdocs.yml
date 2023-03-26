@@ -1,5 +1,8 @@
 site_name: OdooGPT
 site_url: https://odoogpt.thespino.dev/docs
+repo_name: thespino/odoogpt
+repo_url: https://github.com/thespino/odoogpt
+copyright: By @thespino
 
 theme:
   name: material
@@ -33,13 +36,28 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - navigation.footer
 # extra_css:
 #   - stylesheets/extra.css
 
 extra:
   version:
     provider: mike
-
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://go.thespino.dev/r/linkedin
+    - icon: fontawesome/brands/instagram
+      link: https://go.thespino.dev/r/instagram
+    - icon: fontawesome/brands/facebook
+      link: https://go.thespino.dev/r/facebook
+    - icon: fontawesome/brands/youtube
+      link: https://go.thespino.dev/r/youtube
+    - icon: fontawesome/brands/github
+      link: https://go.thespino.dev/r/github
+    - icon: fontawesome/brands/mastodon
+      link: https://go.thespino.dev/r/mastodon
+    - icon: fontawesome/solid/globe
+      link: https://thespino.dev
 #   consent:
 #     title: Cookie consent
 #     description: >- 
