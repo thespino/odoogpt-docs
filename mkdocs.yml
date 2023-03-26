@@ -37,8 +37,8 @@ theme:
     - search.highlight
     - search.share
     - navigation.footer
-# extra_css:
-#   - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   version:
