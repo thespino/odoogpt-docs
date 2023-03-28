@@ -56,7 +56,7 @@ Save settings.
 
 ## Test OpenAI Api token
 
-under to `Settings → Odoo GPT` click on `TEST` next to the "**OpenAI Api token**" field. 
+Under `Settings → Odoo GPT` click on `TEST` next to the "**OpenAI Api token**" field. 
 If you receive the notification 
 
 > Test success! Everything properly set up! You're good to go! 
