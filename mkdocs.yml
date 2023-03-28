@@ -73,8 +73,8 @@ markdown_extensions:
   - attr_list
 
 extra:
-  # version:
-  #   provider: mike
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/linkedin
       link: https://go.thespino.dev/r/linkedin
