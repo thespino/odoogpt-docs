@@ -69,6 +69,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
+  - attr_list
 
 extra:
   # version:
