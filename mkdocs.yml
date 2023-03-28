@@ -110,6 +110,11 @@ nav:
       - 'Settings': docs/configuration/settings.md
     - 'Usage':
       - 'Generic usage': docs/usage/generic-usage.md
+    - 'Advanced usage':
+      - 'OpenAI Models': docs/advanced-usage/openai-models.md
+      - 'OpenAI Files': docs/advanced-usage/openai-files.md
+      - 'OpenAI Fine-Tune': docs/advanced-usage/openai-fine-tune.md
+      - 'Api Logs': docs/advanced-usage/api-logs.md
   - Video:
     - 'Configuration, Fine tune, Documentation for system administrators': video/sys-admin.md
   - About: about.md
