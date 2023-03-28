@@ -1,7 +1,7 @@
 # MAIN INFO
 site_name: OdooGPT
 site_description: Make OdooBot finally useful!
-site_url: https://odoogpt.thespino.dev/docs
+site_url: https://odoogpt.thespino.dev
 
 repo_name: thespino/odoogpt
 repo_url: https://github.com/thespino/odoogpt
@@ -14,6 +14,7 @@ theme:
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.png
+  custom_dir: custom
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -44,6 +45,8 @@ theme:
     - search.share
     - navigation.tabs
     - navigation.footer
+    - content.code.copy
+    - content.code.annotate
 extra_css:
   - stylesheets/extra.css
 
@@ -58,10 +61,17 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 extra:
-  version:
-    provider: mike
+  # version:
+  #   provider: mike
   social:
     - icon: fontawesome/brands/linkedin
       link: https://go.thespino.dev/r/linkedin
@@ -88,6 +98,7 @@ extra:
 
 # PAGES, NAVIGATION
 nav:
+  - Home: index.md
   - Documentation:
     - 'Getting started': docs/getting-started.md
     - 'Requirements': docs/requirements.md
