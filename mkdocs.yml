@@ -105,6 +105,7 @@ nav:
     - 'Requirements': docs/requirements.md
     - 'Getting started': docs/getting-started.md
     - 'Settings': docs/settings.md
+    - 'Generic usage': docs/generic-usage.md
   - Video:
     - 'Configuration, Fine tune, Documentation for system administrators': video/sys-admin.md
   - About: about.md
