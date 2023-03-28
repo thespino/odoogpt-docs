@@ -101,8 +101,8 @@ extra:
 nav:
   - Home: index.md
   - Documentation:
-    - 'Getting started': docs/getting-started.md
     - 'Requirements': docs/requirements.md
+    - 'Getting started': docs/getting-started.md
   - Video:
     - 'Configuration, Fine tune, Documentation for system administrators': video/sys-admin.md
   - About: about.md
