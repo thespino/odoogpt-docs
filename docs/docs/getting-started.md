@@ -18,7 +18,7 @@ pip install openai
 ## Load module
 
 Load the folder module named `odoogpt` into the Odoo addons folder. This depends on your system 
-configuration. Refer to [Odoo's documentation](https://www.odoo.com/documentation/16.0/developer/reference/cli.html#cmdoption-odoo-bin-addons-path).
+configuration. Refer to [Odoo's documentation](https://www.odoo.com/documentation/16.0/developer/reference/cli.html#cmdoption-odoo-bin-addons-path){:target="_blank"}.
 
 The, go into Odoo's backend with an administrative account. Navigate to `Apps` and click `Update Apps List`. 
 
@@ -26,7 +26,7 @@ The, go into Odoo's backend with an administrative account. Navigate to `Apps` a
 
 ??? tip
     If you cannot find action `Update Apps List`, please enable debug mode. See 
-    [Odoo's documentation](https://www.odoo.com/documentation/16.0/applications/general/developer_mode.html?highlight=debug)
+    [Odoo's documentation](https://www.odoo.com/documentation/16.0/applications/general/developer_mode.html?highlight=debug){:target="_blank"}
 
 
 ## Install module `odoogpt`
@@ -43,7 +43,7 @@ After installation, the page will refresh and you will be redirected to the Odoo
 
 Navigate to `Settings → Odoo GPT`. 
 
-Get or generate your Api token in [OpenAI Dashboard](https://platform.openai.com/account/api-keys): 
+Get or generate your Api token in [OpenAI Dashboard](https://platform.openai.com/account/api-keys){:target="_blank"}: 
 
 ![OpenAI Api Key in dashboard](./getting-started/openai-api-key.png)
 
