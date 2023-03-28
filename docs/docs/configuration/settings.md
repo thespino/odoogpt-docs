@@ -12,11 +12,11 @@ The OpenAI Api Token is required to allow Odoo to communicate with OpenAI apis.
 To get or generate your Api token, go to 
 **[OpenAI Dashboard](https://platform.openai.com/account/api-keys){:target="_blank"}**: 
 
-![OpenAI Api Key in dashboard](./getting-started/openai-api-key.png)
+![OpenAI Api Key in dashboard](../installation/getting-started/openai-api-key.png)
 
 Paste the Token in OdooGPT setting in "**OpenAI Api token**" field: 
 
-![OpenAI Api Key in OdooGPT settings](./getting-started/odoogpt-api-key.png)
+![OpenAI Api Key in OdooGPT settings](../installation/getting-started/odoogpt-api-key.png)
 
 Save settings.
 

@@ -3,7 +3,7 @@
 
 ## Install openai Python library
 
-*Also see [requirements](/docs/requirements/).*
+*Also see [requirements](/docs/installation/requirements/).*
 
 First of all, run: 
 

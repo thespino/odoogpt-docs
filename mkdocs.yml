@@ -39,7 +39,8 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.indexes
+    # - navigation.indexes
+    - navigation.expand
     - search.suggest
     - search.highlight
     - search.share
@@ -102,10 +103,13 @@ extra:
 nav:
   - Home: index.md
   - Documentation:
-    - 'Requirements': docs/requirements.md
-    - 'Getting started': docs/getting-started.md
-    - 'Settings': docs/settings.md
-    - 'Generic usage': docs/generic-usage.md
+    - 'Installation':
+      - 'Requirements': docs/installation/requirements.md
+      - 'Getting started': docs/installation/getting-started.md
+    - 'Configuration':
+      - 'Settings': docs/configuration/settings.md
+    - 'Usage':
+      - 'Generic usage': docs/usage/generic-usage.md
   - Video:
     - 'Configuration, Fine tune, Documentation for system administrators': video/sys-admin.md
   - About: about.md
