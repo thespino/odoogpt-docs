@@ -39,7 +39,7 @@ Go to `Settings → OdooGPT (menu) → Create OpenAI Fine Tune`. It will show a 
     At a certain point, you will see the completed Fine Tune in  "*Succeeded*" status.
 - If you now **refresh the Models list**, you can find the trained model.
 
-See [OpenAI docs](https://platform.openai.com/docs/api-reference/fine-tunes) for more info. 
+See [OpenAI docs](https://platform.openai.com/docs/api-reference/fine-tunes){:target="_blank"} for more info. 
 
 
 ### Use the trained model
