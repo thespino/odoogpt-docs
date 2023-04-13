@@ -15,9 +15,10 @@ pip install openai
 You can also add it to your `requirements.txt`:
 
 ```
-openai==0.26.1
+openai>=0.26.1
 ```
 
 !!! note
-    The module might work fine with any **openai** version, but it has been tested with **0.26.1**
+    The module works fine with any **openai** version `>=0.26.1`, but `>=0.27.0` is recommended to 
+    use with ChatCompletion api. 
 
