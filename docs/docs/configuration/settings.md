@@ -55,8 +55,20 @@ You can find default valuse in the picture below.
 
 ## OdooGPT Chat Customization
 
-The following parameters allow to add context to ALL Api requests, in order to allow ChatGPT to 
-better understand what you're asking. 
+The following settings allow you to customize the OdooGPT integration with OpenAI apis. 
+
+You can choose which method to use with OpenAI: 
+
+- **Completion api** - Always available, with any `openai` module version
+- **ChatCompletion api** - :fontawesome-solid-circle-exclamation:{ .red-emoji } Available only with `openai>=0.27.0`
+
+The mode can be selected into Chat Customization settings → field `Chat method`: 
+![OdooGPT Chat Customization Chat method](./settings/customization-chat-method.png)
+
+### Completion api
+
+The parameters under OdooGPT Chat Customization allow to add context to ALL Api requests, in order 
+to let ChatGPT better understand what you're asking. 
 
 For example, an input of "How to create a Product?" won't give useful answers. But if you prefix it 
 with "In Odoo: ", the AI can correctly scope the question because you're adding context. 
@@ -64,4 +76,32 @@ Want to be more precise? You could even change it to "In Odoo 16: ".
 
 The same can be done with a suffix, if needed. 
 
-![OdooGPT Chat Customization](./settings/customization.png)
+![OdooGPT Chat Customization with Completion api](./settings/customization-completion-api.png)
+
+### ChatCompletion api
+
+With Chat Completion api, you must specify the general context of the messages that will be written
+by users to OdooBot. This is useful to give instruction to OpenAI and get specific answers. A 
+default value is already provided, look at the image: 
+
+![OdooGPT Chat Customization with Chat Completion api](./settings/customization-chat-completion-api.png)
+
+
+!!! danger "Important notice on Models compatible with ChatCompletion api"
+    Depending on your OpenAI account or subscription, some Models might not work with ChatCompletion 
+    api. If you get an error like *"Oops! Something went wrong! This is not a chat model and thus 
+    not supported in the v1/chat/completions endpoint. Did you mean to use v1/completions?"*, please 
+    try changing the model in settings or rollback to Completions api. 
+
+    Generally, `gpt-3.5-turbo` works fine with ChatCompletion api, while `text-davinci-003` might 
+    not be enabled. 
+
+    **Example of generally INVALID configurations:**
+
+    - Model `text-davinci-003` | Chat method: `Chat Completion`
+
+    **Example of generally VALID configurations:**
+
+    - Model `text-davinci-003` | Chat method: `Completion`
+    - Model `gpt-3.5-turbo` | Chat method: `Completion`
+    - Model `gpt-3.5-turbo` | Chat method: `Chat Completion`
