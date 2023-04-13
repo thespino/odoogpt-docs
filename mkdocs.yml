@@ -70,6 +70,9 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list
 
 extra:
@@ -117,4 +120,5 @@ nav:
       - 'Api Logs': docs/advanced-usage/api-logs.md
   - Video:
     - 'Configuration, Fine tune, Documentation for system administrators': video/sys-admin.md
+  - Changelog: changelog.md
   - About: about.md
