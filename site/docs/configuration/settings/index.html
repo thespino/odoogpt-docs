@@ -10,7 +10,7 @@
       
       
       
-        <link rel="canonical" href="https://odoogpt.thespino.dev/1.0.0/docs/configuration/settings/">
+        <link rel="canonical" href="https://odoogpt.thespino.dev/16.0.1.0.1/docs/configuration/settings/">
       
       
         <link rel="prev" href="../../installation/getting-started/">
@@ -259,6 +259,18 @@
       </a>
     </li>
   
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../changelog/" class="md-tabs__link">
+      Changelog
+    </a>
+  </li>
 
       
         
@@ -520,6 +532,26 @@
     OdooGPT Chat Customization
   </a>
   
+    <nav class="md-nav" aria-label="OdooGPT Chat Customization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#completion-api" class="md-nav__link">
+    Completion api
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chatcompletion-api" class="md-nav__link">
+    ChatCompletion api
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -745,6 +777,21 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../changelog/" class="md-nav__link">
+        Changelog
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../about/" class="md-nav__link">
         About
       </a>
@@ -804,6 +851,26 @@
     OdooGPT Chat Customization
   </a>
   
+    <nav class="md-nav" aria-label="OdooGPT Chat Customization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#completion-api" class="md-nav__link">
+    Completion api
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chatcompletion-api" class="md-nav__link">
+    ChatCompletion api
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -859,13 +926,46 @@ phase. Recommended value for useful responses is at aound 400 ~ 500 tokens. Plea
 in mind in order to prevent unwanted costs with OpenAI Api. </p>
 </div>
 <h2 id="odoogpt-chat-customization">OdooGPT Chat Customization</h2>
-<p>The following parameters allow to add context to ALL Api requests, in order to allow ChatGPT to 
-better understand what you're asking. </p>
+<p>The following settings allow you to customize the OdooGPT integration with OpenAI apis. </p>
+<p>You can choose which method to use with OpenAI: </p>
+<ul>
+<li><strong>Completion api</strong> - Always available, with any <code>openai</code> module version</li>
+<li><strong>ChatCompletion api</strong> - <span class="twemoji red-emoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24v112c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zm-32 224a32 32 0 1 1 64 0 32 32 0 1 1-64 0z"/></svg></span> Available only with <code>openai&gt;=0.27.0</code></li>
+</ul>
+<p>The mode can be selected into Chat Customization settings → field <code>Chat method</code>: 
+<img alt="OdooGPT Chat Customization Chat method" src="customization-chat-method.png" /></p>
+<h3 id="completion-api">Completion api</h3>
+<p>The parameters under OdooGPT Chat Customization allow to add context to ALL Api requests, in order 
+to let ChatGPT better understand what you're asking. </p>
 <p>For example, an input of "How to create a Product?" won't give useful answers. But if you prefix it 
 with "In Odoo: ", the AI can correctly scope the question because you're adding context. 
 Want to be more precise? You could even change it to "In Odoo 16: ". </p>
 <p>The same can be done with a suffix, if needed. </p>
-<p><img alt="OdooGPT Chat Customization" src="customization.png" /></p>
+<p><img alt="OdooGPT Chat Customization with Completion api" src="customization-completion-api.png" /></p>
+<h3 id="chatcompletion-api">ChatCompletion api</h3>
+<p>With Chat Completion api, you must specify the general context of the messages that will be written
+by users to OdooBot. This is useful to give instruction to OpenAI and get specific answers. A 
+default value is already provided, look at the image: </p>
+<p><img alt="OdooGPT Chat Customization with Chat Completion api" src="customization-chat-completion-api.png" /></p>
+<div class="admonition danger">
+<p class="admonition-title">Important notice on Models compatible with ChatCompletion api</p>
+<p>Depending on your OpenAI account or subscription, some Models might not work with ChatCompletion 
+api. If you get an error like <em>"Oops! Something went wrong! This is not a chat model and thus 
+not supported in the v1/chat/completions endpoint. Did you mean to use v1/completions?"</em>, please 
+try changing the model in settings or rollback to Completions api. </p>
+<p>Generally, <code>gpt-3.5-turbo</code> works fine with ChatCompletion api, while <code>text-davinci-003</code> might 
+not be enabled. </p>
+<p><strong>Example of generally INVALID configurations:</strong></p>
+<ul>
+<li>Model <code>text-davinci-003</code> | Chat method: <code>Chat Completion</code></li>
+</ul>
+<p><strong>Example of generally VALID configurations:</strong></p>
+<ul>
+<li>Model <code>text-davinci-003</code> | Chat method: <code>Completion</code></li>
+<li>Model <code>gpt-3.5-turbo</code> | Chat method: <code>Completion</code></li>
+<li>Model <code>gpt-3.5-turbo</code> | Chat method: <code>Chat Completion</code></li>
+</ul>
+</div>
 
 
 

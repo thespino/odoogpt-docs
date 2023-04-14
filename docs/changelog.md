@@ -13,6 +13,10 @@
 
 - OdooGPT now supports Chat Completion api! 
 
+### UX
+
+- When error occurs in chat, now the error message is printed along with "Something went wrong"
+
 
 ---
 
