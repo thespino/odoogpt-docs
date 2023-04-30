@@ -56,6 +56,7 @@ extra_css:
 # PLUGINS AND SETTINGS
 plugins:
   - search
+  - git-revision-date-localized
   # - privacy
   # privacy plugin needs insider - https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin
   # try this instead: https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/#additional-fonts
