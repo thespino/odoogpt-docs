@@ -1,10 +1,11 @@
 # MAIN INFO
 site_name: OdooGPT
-site_description: Make OdooBot finally useful!
+site_description: Make OdooBot finally useful by integrating with OpenAI ChatGPT-3 🧠
 site_url: https://odoogpt.thespino.dev
 
 repo_name: thespino/odoogpt
 repo_url: https://github.com/thespino/odoogpt
+edit_uri: https://github.com/thespino/odoogpt-docs/edit/main/docs/
 
 copyright: By @thespino
 
@@ -48,6 +49,7 @@ theme:
     - navigation.footer
     - content.code.copy
     - content.code.annotate
+    - content.action.edit
 extra_css:
   - stylesheets/extra.css
 
@@ -56,6 +58,7 @@ extra_css:
 # PLUGINS AND SETTINGS
 plugins:
   - search
+  - social
   - git-revision-date-localized
   # - privacy
   # privacy plugin needs insider - https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin
@@ -75,6 +78,8 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list
+  - toc:
+      permalink: true
 
 extra:
   version:

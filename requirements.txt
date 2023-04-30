@@ -4,3 +4,5 @@ mkdocs-material==9.1.4
 mkdocs-material-extensions==1.1.1
 mkdocs-git-revision-date-localized-plugin==1.2.0
 Pygments==2.14.0
+Pillow==9.5.0
+CairoSVG==2.7.0
