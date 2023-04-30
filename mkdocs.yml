@@ -1,6 +1,6 @@
 # MAIN INFO
 site_name: OdooGPT
-site_description: Make OdooBot finally useful by integrating with OpenAI ChatGPT-3 🧠
+site_description: Make OdooBot finally useful by integrating with OpenAI ChatGPT-3
 site_url: https://odoogpt.thespino.dev
 
 repo_name: thespino/odoogpt
