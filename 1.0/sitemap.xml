@@ -6,12 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://odoogpt.thespino.dev/1.0/changelog/</loc>
+         <lastmod>2023-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://odoogpt.thespino.dev/1.0/about/</loc>
          <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://odoogpt.thespino.dev/1.0/changelog/</loc>
+         <loc>https://odoogpt.thespino.dev/1.0/about/license/</loc>
          <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
