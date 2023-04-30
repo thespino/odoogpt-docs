@@ -128,4 +128,6 @@ nav:
   - Video:
     - 'Configuration, Fine tune, Documentation for system administrators': video/sys-admin.md
   - Changelog: changelog.md
-  - About: about.md
+  - About: 
+    - 'About': about/index.md
+    - 'License': about/license.md
