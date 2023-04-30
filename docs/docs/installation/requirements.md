@@ -1,6 +1,6 @@
 # Requirements
 
-- The module is compatible with **Odoo 16.0** 
+- The module is compatible with **Odoo** versions **15.0** and **16.0**
 - The [openai python library](https://pypi.org/project/openai/) is needed
 
 
