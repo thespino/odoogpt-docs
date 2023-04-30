@@ -18,13 +18,13 @@ theme:
   custom_dir: custom
   palette:
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
-      accent: deep purple
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   primary: deep purple
+    #   accent: deep purple
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
