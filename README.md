@@ -11,6 +11,18 @@ Built with
 
 ## Environment setup
 
+If needed, use or create pyenv virtual env:
+
+```sh
+# Create
+pyenv virtualenv 3.9.16 venv-odoogpt-docs
+pyenv activate venv-odoogpt-docs
+
+# Use
+pyenv shell venv-odoogpt-docs
+```
+
+Then, install requirements: 
 ```sh
 pip install -r ./requirements.txt
 ```
