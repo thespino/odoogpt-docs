@@ -20,13 +20,12 @@ pip install -r ./requirements.txt
 mkdocs serve
 ```
 
-## Build stati csit
+## Build static site
 ```sh
 mkdocs build
 ```
 
 ## Deploy to Github pages
-
 ```sh
 mkdocs gh-deploy
 ```
