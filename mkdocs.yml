@@ -1,6 +1,6 @@
 # MAIN INFO
 site_name: OdooGPT
-site_description: Make OdooBot finally useful by integrating with OpenAI ChatGPT-3
+site_description: Make OdooBot finally useful by integrating with OpenAI ChatGPT. Integrate Odoo with OpenAI ChatGPT 3 and 4! Chat with OdooBot, Fine-tune models and speed-up your business!
 site_url: https://odoogpt.thespino.dev
 
 repo_name: thespino/odoogpt
@@ -26,13 +26,13 @@ theme:
     #     icon: material/brightness-7
     #     name: Switch to dark mode
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep purple
-      accent: deep purple
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    # - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: deep purple
+    accent: deep purple
+    # toggle:
+    #   icon: material/brightness-4
+    #   name: Switch to light mode
   font:
     text: Inter
     code: Roboto Mono
