@@ -119,6 +119,7 @@ nav:
       - 'Getting started': docs/installation/getting-started.md
     - 'Configuration':
       - 'Settings': docs/configuration/settings.md
+      - 'User-level settings': docs/configuration/user-settings.md
     - 'Usage':
       - 'Generic usage': docs/usage/generic-usage.md
     - 'Advanced usage':

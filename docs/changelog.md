@@ -7,6 +7,23 @@
 ---
 
 
+# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v16.0.1.0.2 & v15.0.1.0.2 {id=v16.0.1.0.2}
+
+## New features
+- Customize OdooGPT settings on user level
+- Allow users to customize their own settings, based on permissions
+
+
+## What's Changed
+* TODO
+
+
+**Full Changelog**: https://github.com/thespino/odoogpt/compare/v16.0.1.0.1...v16.0.1.0.2
+
+
+---
+
+
 # :material-new-box:{ .green-emoji }&nbsp;&nbsp;v15.0.1.0.0 {id=v15.0.1.0.0}
 
 ## Summary 
