@@ -7,7 +7,7 @@
 ---
 
 
-# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v16.0.1.0.2 & v15.0.1.0.2 {id=v16.0.1.0.2}
+# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v16.0.1.0.2 {id=v16.0.1.0.2}
 
 ## New features
 - Customize OdooGPT settings on user level
@@ -15,7 +15,7 @@
 
 
 ## What's Changed
-* TODO
+* [FEATURE REQUEST] [16.0] User-based custom settings by @thespino in https://github.com/thespino/odoogpt/pull/45
 
 
 **Full Changelog**: https://github.com/thespino/odoogpt/compare/v16.0.1.0.1...v16.0.1.0.2
@@ -24,7 +24,24 @@
 ---
 
 
-# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v15.0.1.0.0 {id=v15.0.1.0.0}
+# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v15.0.1.0.2 {id=v15.0.1.0.2}
+
+## New features
+- Customize OdooGPT settings on user level
+- Allow users to customize their own settings, based on permissions
+
+
+## What's Changed
+* [FEATURE REQUEST] [15.0] User-based custom settings by @thespino in https://github.com/thespino/odoogpt/pull/47
+
+
+**Full Changelog**: https://github.com/thespino/odoogpt/compare/v15.0.1.0.0...v15.0.1.0.2
+
+
+---
+
+
+# v15.0.1.0.0 {id=v15.0.1.0.0}
 
 ## Summary 
 Thanks to @Galoperd contribution, OdooGPT is now available also for Odoo 15.0!
@@ -41,7 +58,7 @@ Thanks to @Galoperd contribution, OdooGPT is now available also for Odoo 15.0!
 ---
 
 
-# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v16.0.1.0.1 {id=v16.0.1.0.1}
+# v16.0.1.0.1 {id=v16.0.1.0.1}
 
 ## New features
 - OdooGPT now supports Chat Completion api! 
