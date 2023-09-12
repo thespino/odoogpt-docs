@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://odoogpt.thespino.dev/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/changelog/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/about/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/about/license/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/advanced-usage/api-logs/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/advanced-usage/openai-files/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/advanced-usage/openai-fine-tune/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/advanced-usage/openai-models/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/configuration/settings/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/configuration/user-settings/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/installation/getting-started/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/installation/requirements/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/docs/usage/generic-usage/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://odoogpt.thespino.dev/video/sys-admin/</loc>
-         <lastmod>2023-08-14</lastmod>
+         <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
