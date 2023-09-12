@@ -7,7 +7,37 @@
 ---
 
 
-# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v16.0.1.0.2 {id=v16.0.1.0.2}
+# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v16.0.1.0.3 {id=v16.0.1.0.3}
+
+## Bug fix
+* Add compatibility with Python 3.7 by managing dependencies
+
+## What's Changed
+* [16.0] fix(config): add importlib dependencies to support python 3.7 by @thespino in https://github.com/thespino/odoogpt/pull/48
+
+
+**Full Changelog**: https://github.com/thespino/odoogpt/compare/v16.0.1.0.2...v16.0.1.0.3
+
+
+---
+
+
+# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v15.0.1.0.3 {id=v15.0.1.0.3}
+
+## Bug fix
+* Add compatibility with Python 3.7 by managing dependencies
+
+## What's Changed
+* [16.0] fix(config): add importlib dependencies to support python 3.7 by @thespino in https://github.com/thespino/odoogpt/pull/48
+
+
+**Full Changelog**: https://github.com/thespino/odoogpt/compare/v15.0.1.0.2...v15.0.1.0.3
+
+
+---
+
+
+# v16.0.1.0.2 {id=v16.0.1.0.2}
 
 ## New features
 - Customize OdooGPT settings on user level
@@ -24,7 +54,7 @@
 ---
 
 
-# :material-new-box:{ .green-emoji }&nbsp;&nbsp;v15.0.1.0.2 {id=v15.0.1.0.2}
+# v15.0.1.0.2 {id=v15.0.1.0.2}
 
 ## New features
 - Customize OdooGPT settings on user level
